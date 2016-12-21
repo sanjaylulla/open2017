@@ -68,17 +68,17 @@ header{
 
 nav {
 	position: fixed-scroll;
-	width: 160px; 
+	width: 160px;
 }
 
 nav ul {
-	float: left;  
+	float: left;
 	margin-bottom: 75px;
 }
 
 nav ul li {
 	display: block;
-	margin-bottom: 10px; 
+	margin-bottom: 10px;
 }
 
 nav ul li a,
@@ -87,12 +87,12 @@ nav ul li a:active {
 	font-size: 20px;
 	color: #555;
 	text-decoration: none;
-	font-weight: bold; 
+	font-weight: bold;
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
-	color: #222; 
+	color: #222;
 }
 
 .ginormous-text {
@@ -211,22 +211,6 @@ nav ul li a:focus {
     border: 1px solid #D7E0E0;
 }
 
-// Youtube responsive div code
-.intrinsic-container {
-  position: relative;
-  height: 0;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-}
-
 .profile-image {
 	border-radius: 0%;
-}
-
-.intrinsic-container iframe {
-  position: absolute;
-  top:0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
