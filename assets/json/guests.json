@@ -2,301 +2,127 @@
   {
     "name": "Jeff Atwood",
     "bio": "Co-founder of Stack Overflow and Discourse",
-    "imageUrl": "http://i.imgur.com/EhkwmQ9g.jpg",
+    "imageUrl": "DByhBg4.png",
     "twitterHandle": "codinghorror"
   },
   {
     "name": "Anil Dash",
     "bio": "CEO of Fog Creek Software (GoMix)",
-    "imageUrl": "http://i.imgur.com/vp5FmD3.jpg",
+    "imageUrl": "vp5FmD3.jpg",
     "twitterHandle": "anildash"
   },
   {
     "name": "Kyle Simpson",
     "bio": "Author of You Don't Know JS",
-    "imageUrl": "http://i.imgur.com/xrBAyTY.png",
+    "imageUrl": "xrBAyTY.png",
     "twitterHandle": "getify"
   },
   {
     "name": "Sarah Drasner",
     "bio": "Writer for CSS Tricks",
-    "imageUrl": "http://i.imgur.com/p4IMMkP.jpg ",
+    "imageUrl": "p4IMMkP.jpg ",
     "twitterHandle": "sarah_edo"
   },
   {
     "name": "Jeff Meyerson",
     "bio": "Host of Software Engineering Daily",
-    "imageUrl": "http://i.imgur.com/ROiZ42S.jpg",
+    "imageUrl": "ROiZ42S.jpg",
     "twitterHandle": "the_prion"
   },
   {
     "name": "Shubheksha",
     "bio": "Maintainer of How to Contribute to Open Source",
-    "imageUrl": "http://i.imgur.com/fxCv3ke.jpg",
+    "imageUrl": "fxCv3ke.jpg",
     "twitterHandle": "ScribblingOn"
   },
   {
-    "name": "Peter Weinberg",
-    "bio": "Core contributor to Free Code Camp's curriculum",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
     "name": "Justin Richardson",
-    "bio": "Front End Developer and leader of Free Code Camp's Local Study Groups",
-    "imageUrl": "http://i.imgur.com/hM31B0I.jpg",
+    "bio": "Front End Developer and Free Code Camp Core Team",
+    "imageUrl": "hM31B0I.jpg",
     "twitterHandle": "hallaathrad"
   },
   {
     "name": "Mrugesh Mohapatra",
-    "bio": "Core contributor to Free Code Camp's platform",
-    "imageUrl": "http://i.imgur.com/ee7kY37.jpg",
+    "bio": "Software Engineer and Free Code Camp Core Team",
+    "imageUrl": "ee7kY37.jpg",
     "twitterHandle": "raisedadead"
   },
   {
     "name": "Ewa Mitulska-Wójcik",
     "bio": "Front End Developer and YouTuber",
-    "imageUrl": "http://i.imgur.com/GTUCfzU.jpg",
+    "imageUrl": "GTUCfzU.jpg",
     "twitterHandle": "thedoerdoes"
   },
   {
     "name": "Michael Johnson",
-    "bio": "The nonprofit guy at Free Code Camp",
-    "imageUrl": "http://i.imgur.com/DBGOcPE.png",
+    "bio": "Free Code Camp COO and Nonprofit Coordinator",
+    "imageUrl": "DBGOcPE.png",
     "twitterHandle": "codenonprofit"
   },
   {
     "name": "Alexander Kallaway",
-    "bio": "Front End Developer. Started #100DaysOfCode",
-    "imageUrl": "http://i.imgur.com/craQWau.jpg",
+    "bio": "Front End Developer. Creator of #100DaysOfCode",
+    "imageUrl": "craQWau.jpg",
     "twitterHandle": "ka11away"
   },
   {
     "name": "Heather K",
-    "bio": "Free Code Camp head of curriculum",
-    "imageUrl": "http://i.imgur.com/Vw7Bebi.jpg",
-    "twitterHandle": ""
-  },
-  {
-    "name": "Berkeley Martinez",
-    "bio": "CTO of Free Code Camp",
-    "imageUrl": "",
+    "bio": "Free Code Camp Core Team",
+    "imageUrl": "Vw7Bebi.jpg",
     "twitterHandle": ""
   },
   {
     "name": "Sacha Grief",
     "bio": "Author of Discover Meteor, founder of SideBar.io, creator of State of JavaScript",
-    "imageUrl": "http://i.imgur.com/6Rc7NCI.jpg",
+    "imageUrl": "6Rc7NCI.jpg",
     "twitterHandle": "SachaGreif"
   },
   {
     "name": "Berkeley Martinez",
     "bio": "CTO of Free Code Camp",
-    "imageUrl": "http://i.imgur.com/Jym89gU.jpg",
+    "imageUrl": "Jym89gU.jpg",
     "twitterHandle": "berkeleytrue"
   },
   {
     "name": "Jackson Bates",
-    "bio": "Moderator of the Free Code Camp forum",
-    "imageUrl": "http://i.imgur.com/tobIIU2.png",
+    "bio": "Free Code Camp Forum Moderator",
+    "imageUrl": "tobIIU2.png",
     "twitterHandle": "JacksonBates"
   },
   {
     "name": "Catherine Kim",
-    "bio": "",
-    "imageUrl": "http://i.imgur.com/XJsD20y.jpg",
+    "bio": "Free Code Camp Study Group Leader",
+    "imageUrl": "XJsD20y.jpg",
     "twitterHandle": "KatyKim426"
   },
   {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
+    "name": "Tyler McGuiness",
+    "bio": "Creator of ReactTraining.com",
+    "imageUrl": "Yq3SOrU.jpg",
+    "twitterHandle": "tylermcginnis33"
   },
   {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
+    "name": "Preethi Kasireddy",
+    "bio": "Software Engineer at Coinbase",
+    "imageUrl": "6oFczdc.jpg",
+    "twitterHandle": "iam_preethi"
   },
   {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
+    "name": "Haseeb Qureshi",
+    "bio": "Software Engineer at AirBnB",
+    "imageUrl": "LVNIcE4.jpg",
+    "twitterHandle": "hosseeb"
   },
   {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
+    "name": "Bill Sourour",
+    "bio": "Founder of DevMastery.com",
+    "imageUrl": "RqWMQOw.png",
+    "twitterHandle": "billsourour"
   },
   {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
-  },
-  {
-    "name": "",
-    "bio": "",
-    "imageUrl": "",
-    "twitterHandle": ""
+    "name": "Ben Halpern",
+    "bio": "Creator of @ThePracticalDev",
+    "imageUrl": "sU8pB00.jpg",
+    "twitterHandle": "bendhalpern"
   }
 ]
