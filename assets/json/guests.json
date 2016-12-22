@@ -6,6 +6,12 @@
     "twitterHandle": "codinghorror"
   },
   {
+    "name": "Sarah Drasner",
+    "bio": "Writer for CSS Tricks",
+    "imageUrl": "p4IMMkP.jpg ",
+    "twitterHandle": "sarah_edo"
+  },
+  {
     "name": "Anil Dash",
     "bio": "CEO of Fog Creek Software (GoMix)",
     "imageUrl": "vp5FmD3.jpg",
@@ -18,10 +24,16 @@
     "twitterHandle": "getify"
   },
   {
-    "name": "Sarah Drasner",
-    "bio": "Writer for CSS Tricks",
-    "imageUrl": "p4IMMkP.jpg ",
-    "twitterHandle": "sarah_edo"
+    "name": "Preethi Kasireddy",
+    "bio": "Software Engineer at Coinbase",
+    "imageUrl": "6oFczdc.jpg",
+    "twitterHandle": "iam_preethi"
+  },
+  {
+    "name": "Sacha Grief",
+    "bio": "Author of Discover Meteor, founder of SideBar.io, creator of State of JavaScript",
+    "imageUrl": "6Rc7NCI.jpg",
+    "twitterHandle": "SachaGreif"
   },
   {
     "name": "Jeff Meyerson",
@@ -72,12 +84,6 @@
     "twitterHandle": ""
   },
   {
-    "name": "Sacha Grief",
-    "bio": "Author of Discover Meteor, founder of SideBar.io, creator of State of JavaScript",
-    "imageUrl": "6Rc7NCI.jpg",
-    "twitterHandle": "SachaGreif"
-  },
-  {
     "name": "Berkeley Martinez",
     "bio": "CTO of Free Code Camp",
     "imageUrl": "Jym89gU.jpg",
@@ -100,12 +106,6 @@
     "bio": "Creator of ReactTraining.com",
     "imageUrl": "Yq3SOrU.jpg",
     "twitterHandle": "tylermcginnis33"
-  },
-  {
-    "name": "Preethi Kasireddy",
-    "bio": "Software Engineer at Coinbase",
-    "imageUrl": "6oFczdc.jpg",
-    "twitterHandle": "iam_preethi"
   },
   {
     "name": "Haseeb Qureshi",
