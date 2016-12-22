@@ -123,18 +123,16 @@
 				$(this).html(originalText);
 			})
 
-			// responsive 16x9 iframe - restricted by parent's width
-			const resizeIframe = () => {
-				const iframes = document.querySelectorAll('.responsive-iframe iframe')
-				iframes.forEach(iframe => {
-					iframe.width = iframe.parentNode.clientWidth
-				  iframe.height = iframe.parentNode.clientWidth / 16 * 9
-				})
-			}
-
-			window.addEventListener('resize', resizeIframe, false)
-
-			resizeIframe()
+		// responsive 16x9 iframe - restricted by parent's width
+		var resizeIframe = function() {
+			$('.responsive-iframe iframe').each((index, iframe) => {
+				var parentWidth = $(iframe).parent().width()
+				$(iframe).width(parentWidth)
+				$(iframe).height(parentWidth / 16 * 9)
+			})
+		}
+		$(window).on('resize', resizeIframe)
+		resizeIframe()
 	</script>
 
 </body>
