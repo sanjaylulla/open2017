@@ -4,8 +4,10 @@
 <head>
 	<meta charset="UTF-8">
 	<title>#Open2017</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/grid.css">  
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/grid.css">  
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
 	<script>
 	    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -51,39 +53,9 @@
 				<h2>GUESTS</h2>
 				<p>These fun people will drop into our live stream throughout the night.</p>
 			</div>
-			<div class="row clearfix pad">
-				<div class="four columns alpha">
-					<img class="profile-image" src="https://pbs.twimg.com/profile_images/786179830266167296/AmZpJJLv_400x400.jpg">
-					<div class="palette-pad">
-						<h4>Anil Dash</h4>
-						<p>CEO - Fog Creek</p>
-						<span class="small">
-							<a href="https://twitter.com/anildash">@anildash</a>
-						</span>
-					</div>
-				</div>
-				<div class="four columns alpha">
-					<img class="profile-image" src="https://pbs.twimg.com/profile_images/742157172516085764/hxI9M6He_400x400.jpg">
-					<div class="palette-pad">
-						<h4>Sarah Drasner</h4>
-						<p>CEO - Real CSS Tricks</p>
-						<span class="small">
-							<a href="https://twitter.com/sarah_edo">@sarah_edo</a>
-						</span>
-					</div>
-				</div>
-				<div class="four columns alpha">
-					<img class="profile-image" src="https://avatars0.githubusercontent.com/u/150330?v=3&s=460">
-					<div class="palette-pad">
-						<h4>Kyle Simpson</h4>
-						<p>Author - You Don't Know JS</p>
-						<span class="small">
-							<a href="https://twitter.com/getify">@getify</a>
-						</span>
-					</div>
-				</div>				
-			</div>
+			<div class="row clearfix pad" id="guest-list">
 
+			</div>	
 			<div class="doc-section pad" id="schedule">
 				<h2>SCHEDULE</h2>
 				<p>Create a calendar reminder to join us.</p>
@@ -103,23 +75,8 @@
 
 	<!-- JS
 	================================================== -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-	<script>
-		$('.hidden-code').click(function(e) {
-			e.preventDefault();
-			$(this).children('.gist').slideToggle();
-		})
-
-		var originalText;
-		$('.example-grid').children().hover(
-			function() {
-				originalText = $(this).text();
-				$(this).html($(this).width()+'px');
-			},
-			function() {
-				$(this).html(originalText);
-			})
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+	<script src="assets/javascript/main.js">
 	</script>
 
 </body>
