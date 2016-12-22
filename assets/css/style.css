@@ -250,3 +250,7 @@ nav ul li a:focus {
 .profile-image {
 	border-radius: 0%;
 }
+
+.big-break {
+  margin-top: 50px;
+}
