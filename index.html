@@ -125,7 +125,7 @@
 
 		// responsive 16x9 iframe - restricted by parent's width
 		var resizeIframe = function() {
-			$('.responsive-iframe iframe').each((index, iframe) => {
+			$('.responsive-iframe iframe').each(function(index, iframe) {
 				var parentWidth = $(iframe).parent().width()
 				$(iframe).width(parentWidth)
 				$(iframe).height(parentWidth / 16 * 9)
