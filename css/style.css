@@ -99,11 +99,24 @@ nav ul li a:focus {
 	font-size: 120px;
 }
 
+@media only screen and (max-width: 767px) {
+	.ginormous-text {
+		font-size: 55px;
+	}
+}
+
 .top-hero{
 	text-align: center;
 	padding-top: 250px;
   	padding-left: 50px;
   	padding-right: 50px;
+}
+
+@media only screen and (max-width: 767px) {
+	.top-hero {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 
 .pad{
