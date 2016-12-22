@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<title>#Open2017</title>
 	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/grid.css">  
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+	<link rel="stylesheet" href="assets/css/grid.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i" rel="stylesheet">
 	<script>
@@ -31,11 +31,11 @@
 	</header>
 	<div class="container">
 		<div class="row">
-			<div class="twelve columns intrinsic-container">
+			<div class="responsive-iframe">
 			  <iframe src="//www.youtube.com/embed/wPCzcOHE5os" allowfullscreen></iframe>
-		  </div>	
+		  </div>
 		</div>
-	</div>		
+	</div>
 	<div class="container">
 		<div class="three columns sidebar">
 			<nav>
@@ -55,12 +55,14 @@
 			</div>
 			<div class="row clearfix pad" id="guest-list">
 
-			</div>	
+			</div>
 			<div class="doc-section pad" id="schedule">
 				<h2>SCHEDULE</h2>
 				<p>Create a calendar reminder to join us.</p>
-				<div class="row clearfix">
-					<iframe src="https://calendar.google.com/calendar/embed?src=freecodecamp.com_v30sccnlco1j4jtm0k05rrs01g%40group.calendar.google.com&ctz=America/New_York"></iframe>
+				<div class="row">
+					<div class="responsive-iframe">
+						<iframe src="https://calendar.google.com/calendar/embed?src=freecodecamp.com_v30sccnlco1j4jtm0k05rrs01g%40group.calendar.google.com&ctz=America/New_York"></iframe>
+					</div>
 				</div>
 			</div>
 
@@ -73,12 +75,10 @@
 
 	</div>
 
-	<!-- JS
-	================================================== -->
+	<!-- JS -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
 	<script src="assets/javascript/main.js">
-	</script>
-
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </body>
 
 </html>
