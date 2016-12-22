@@ -16,12 +16,18 @@ $('.example-grid').children().hover(
 
 $.getJSON('assets/json/guests.json').then(function(data) {
     data.forEach(function(guest) {
+        socialHandle = guest.twitterHandle || guest.githubHandle
+        socialURL = guest.twitterHandle ? ("https://twitter.com/" + socialHandle) : ("https://github.com/" + socialHandle)
+
         $("#guest-list").append(
             `
                 <div class="four columns alpha">
                     <img class="profile-image" src="//imgur.com/${guest.imageUrl}">
                     <div class="palette-pad">
                         <h4>${guest.name}</h4>
+                        <a href="${socialURL}" target="_blank">
+                            <h5>@${socialHandle}</h5>
+                        </a>
                         <p>${guest.bio}</p>
                     </div>
                 </div>
