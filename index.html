@@ -29,7 +29,7 @@
 	</header>
 	<div class="container">
 		<div class="row">
-			<div class="responsive-video">
+			<div class="responsive-iframe">
 			  <iframe src="//www.youtube.com/embed/wPCzcOHE5os" allowfullscreen></iframe>
 		  </div>
 		</div>
@@ -87,8 +87,10 @@
 			<div class="doc-section pad" id="schedule">
 				<h2>SCHEDULE</h2>
 				<p>Create a calendar reminder to join us.</p>
-				<div class="row clearfix">
-					<iframe src="https://calendar.google.com/calendar/embed?src=freecodecamp.com_v30sccnlco1j4jtm0k05rrs01g%40group.calendar.google.com&ctz=America/New_York"></iframe>
+				<div class="row">
+					<div class="responsive-iframe">
+						<iframe src="https://calendar.google.com/calendar/embed?src=freecodecamp.com_v30sccnlco1j4jtm0k05rrs01g%40group.calendar.google.com&ctz=America/New_York"></iframe>
+					</div>
 				</div>
 			</div>
 
@@ -122,11 +124,12 @@
 			})
 
 			// responsive 16x9 iframe - restricted by parent's width
-			const iframe = document.querySelector('.responsive-video iframe')
-
 			const resizeIframe = () => {
-			  iframe.width = iframe.parentNode.clientWidth
-			  iframe.height = iframe.parentNode.clientWidth / 16 * 9
+				const iframes = document.querySelectorAll('.responsive-iframe iframe')
+				iframes.forEach(iframe => {
+					iframe.width = iframe.parentNode.clientWidth
+				  iframe.height = iframe.parentNode.clientWidth / 16 * 9
+				})
 			}
 
 			window.addEventListener('resize', resizeIframe, false)
