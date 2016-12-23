@@ -7,8 +7,8 @@
   },
   {
     "name": "Sarah Drasner",
-    "bio": "Writer for CSS Tricks",
-    "imageUrl": "p4IMMkP.jpg ",
+    "bio": "Writer for CSS Tricks, Co-founder of WebAnimationWorkshops.com",
+    "imageUrl": "p4IMMkP.jpg",
     "twitterHandle": "sarah_edo"
   },
   {
@@ -48,6 +48,36 @@
     "twitterHandle": "ScribblingOn"
   },
   {
+    "name": "Alexander Kallaway",
+    "bio": "Front End Developer. Creator of #100DaysOfCode",
+    "imageUrl": "craQWau.jpg",
+    "twitterHandle": "ka11away"
+  },
+  {
+    "name": "Tyler McGuiness",
+    "bio": "Creator of ReactTraining.com",
+    "imageUrl": "Yq3SOrU.jpg",
+    "twitterHandle": "tylermcginnis33"
+  },
+  {
+    "name": "Ben Halpern",
+    "bio": "Creator of @ThePracticalDev",
+    "imageUrl": "sU8pB00.jpg",
+    "twitterHandle": "bendhalpern"
+  },
+  {
+    "name": "Saron Yitbarek",
+    "bio": "Founder of CodeNewbie",
+    "imageUrl": "cO2pAtc.jpg",
+    "twitterHandle": "saronyitbarek"
+  },
+  {
+    "name": "Haseeb Qureshi",
+    "bio": "Software Engineer at AirBnB",
+    "imageUrl": "LVNIcE4.jpg",
+    "twitterHandle": "hosseeb"
+  },
+  {
     "name": "Justin Richardson",
     "bio": "Front End Developer and Free Code Camp Core Team member",
     "imageUrl": "hM31B0I.jpg",
@@ -67,25 +97,19 @@
   },
   {
     "name": "Michael Johnson",
-    "bio": "Free Code Camp COO and Nonprofit Coordinator",
+    "bio": "Oversees Free Code Camp's pro bono coding for nonprofits",
     "imageUrl": "DBGOcPE.png",
     "twitterHandle": "codenonprofit"
   },
   {
-    "name": "Alexander Kallaway",
-    "bio": "Front End Developer. Creator of #100DaysOfCode",
-    "imageUrl": "craQWau.jpg",
-    "twitterHandle": "ka11away"
-  },
-  {
     "name": "Heather K",
-    "bio": "Free Code Camp Core Team member",
+    "bio": "Creator of Free Code Camp's Accessibility and Debugging challenges",
     "imageUrl": "Vw7Bebi.jpg",
     "githubHandle": "HKuz"
   },
   {
     "name": "Berkeley Martinez",
-    "bio": "CTO of Free Code Camp",
+    "bio": "Oversees Free Code Camp's platform and infrastructure",
     "imageUrl": "Jym89gU.jpg",
     "twitterHandle": "berkeleytrue"
   },
@@ -102,27 +126,15 @@
     "twitterHandle": "KatyKim426"
   },
   {
-    "name": "Tyler McGuiness",
-    "bio": "Creator of ReactTraining.com",
-    "imageUrl": "Yq3SOrU.jpg",
-    "twitterHandle": "tylermcginnis33"
-  },
-  {
-    "name": "Haseeb Qureshi",
-    "bio": "Software Engineer at AirBnB",
-    "imageUrl": "LVNIcE4.jpg",
-    "twitterHandle": "hosseeb"
-  },
-  {
     "name": "Bill Sourour",
     "bio": "Founder of DevMastery.com",
     "imageUrl": "RqWMQOw.png",
     "twitterHandle": "billsourour"
   },
   {
-    "name": "Ben Halpern",
-    "bio": "Creator of @ThePracticalDev",
-    "imageUrl": "sU8pB00.jpg",
-    "twitterHandle": "bendhalpern"
+    "name": "Sean Smith",
+    "bio": "Creator of Free Code Camp's React challenges",
+    "imageUrl": "I4F3dEd.png",
+    "githubHandle": "bonham000"
   }
 ]
