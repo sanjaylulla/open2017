@@ -70,3 +70,52 @@ function responsiveTwitterWidget(){
         widget.append($('<div class=timeline>'));
     }
 }
+
+//sticky navigation
++(function() {
+
+    // Selectors
+    var sidebar = document.querySelector('.sidebar');
+    var content = document.querySelector('.content');
+
+    // Constants
+    var SIDEBAR_DISTANCE_TOP = sidebar.getBoundingClientRect().top + document.body.scrollTop - 50;
+    var WIDTH_BRAKE_POINT = 767;
+
+    // Global varialbes
+    var distanceTop = document.body.scrollTop;
+    var browserWidth = window.innerWidth || document.body.clientWidth;
+
+    window.addEventListener('resize', function(){
+        browserWidth = window.innerWidth || document.body.clientWidth;
+        doStick();
+    });
+
+    window.addEventListener("scroll", function() {
+        distanceTop = document.body.scrollTop;
+        doStick();
+    });
+
+    function doStick() {
+        if (isStickable()) {
+            SIDEBAR_DISTANCE_TOP < distanceTop ? stick() : unStick();
+        } else {
+            unStick();
+        }
+    }
+
+    function stick() {
+        sidebar.classList.add('stick');
+        content.classList.add('offset-by-four');
+    }
+
+    function unStick() {
+        sidebar.classList.remove('stick')
+        content.classList.remove('offset-by-four')
+    }
+
+    function isStickable() {
+        return browserWidth > WIDTH_BRAKE_POINT;
+    }
+
+})()
