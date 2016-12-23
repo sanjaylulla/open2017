@@ -254,3 +254,9 @@ nav ul li a:focus {
 .big-break {
   margin-top: 50px;
 }
+
+.stick {
+	position: fixed;
+	top: 50px;
+}
+
