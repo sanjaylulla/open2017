@@ -64,15 +64,6 @@
 		}
 	}
 
-	/* Mobile Landscape */
-	/*
-    @media only screen and (min-width: 480px) and (max-width: 767px) {
-		nav ul {
-			display: none;
-		}
-	}
-	*/
-
 	/* Non 960 */
 	@media only screen and (max-width: 959px) {
 		nav .button {
