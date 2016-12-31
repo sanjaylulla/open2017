@@ -264,3 +264,6 @@ nav ul li a:focus {
 	top: 50px;
 }
 
+.align-right {
+  text-align: right;
+}
